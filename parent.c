@@ -72,7 +72,7 @@ int main(int argc, char* argv[])
 				mpid[i]=pid;
 				printf("%d == %d\n", mpid[i],pid);
 			}
-			if(!pid) ret=execve("/home/kali/progi/lab02/child",NULL,NULL);
+			if(!pid) ret=execve("/home/kali/progi/lab02/child(полный путь к вашему исполняемому child)",NULL,NULL);
 			i++;
 			temp=i;
 		}
